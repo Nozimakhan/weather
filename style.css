@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #489DCB;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px;
+}
+.title{
+    position: absolute ;
+    top: 30px;
+    background-color: white;
+    color: #489DCB;
+    padding: 10px;
+    border: 10px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.weather-card{
+    width: 600px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+}
+.card{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+.card__img{
+    width: 170px;
+    margin-top: 20px;
+}
+.card p{
+    color: #489DCB;
+}
+.card strong{
+    color: #489DCB;
+}
